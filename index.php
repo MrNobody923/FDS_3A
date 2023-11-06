@@ -13,6 +13,7 @@
     <div class="header" id="header-info">
         <center style="font-family: Arial, Helvetica, sans-serif;">
             <h1>STUDENT RECORD MANAGEMENT</h1>
+            <img src="IMAGES/cics_logoo.png" alt="cics">
         </center>
     </div>
 

@@ -22,7 +22,7 @@
     <div class="table-container">
     <table border="2">
         
-        <thead>
+        <!-- <thead>
             <tr>
                 <td colspan="9">
                     <div class="table-container-title">
@@ -31,7 +31,7 @@
                     </center>
                 </td>
             </tr>
-            </div>
+            </div> -->
             <tr style="font-family: Arial, Helvetica, sans-serif;">
             
                 <th>ID</th>

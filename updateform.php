@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    
     <?php
 
     require_once __DIR__ . '/./views/select.php';
@@ -36,31 +37,31 @@
                 <div class="info-container">
                     <input type="hidden" name="id" value="<?= $key['id']; ?>">
                     <div class="user-id">
-                        <input type="text" name="studid" placeholder="ID #.." required>
+                        <input type="text" name="studid" placeholder="ID #.." value="<?= $key['studid'] ?>" required>
                     </div>
 
                     <div class="user-lname">
-                        <input type="text" name="lname" placeholder="Last name.." required>
+                        <input type="text" name="lname" placeholder="Last name.." value="<?= $key['lname'] ?>" required>
                     </div>
 
                     <div class="user-fname">
-                        <input type="text" name="fname" placeholder="First name.." required>
+                        <input type="text" name="fname" placeholder="First name.." value="<?= $key['fname'] ?>" required>
                     </div>
 
                     <div class="user-age">
-                        <input type="text" name="age" placeholder="Age.." required>
+                        <input type="text" name="age" placeholder="Age.." value="<?= $key['age'] ?>" required>
                     </div>
 
                     <div class="user-stat">
-                        <input type="text" name="stat" placeholder="Stat.." required>
+                        <input type="text" name="stat" placeholder="Stat.." value="<?= $key['stat'] ?>" required>
                     </div>
 
                     <div class="user-address">
-                        <input type="text" name="address" placeholder="Address.." required>
+                        <input type="text" name="address" placeholder="Address.." value="<?= $key['address'] ?>" required>
                     </div>
 
                     <div class="user-contact">
-                        <input type="text" name="cn" placeholder="Contact.." required>
+                        <input type="text" name="cn" placeholder="Contact.." value="<?= $key['cn'] ?>" required>
                     </div>
 
                     <div class="submit-btn">
