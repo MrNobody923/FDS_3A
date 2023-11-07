@@ -17,7 +17,7 @@
         $bool = updateStudent($id, $studid, $lname, $fname, $age, $stat, $address, $cn);
 
         if ($bool) {
-            echo "Information updated successfully!";
+            // echo "Information updated successfully!";
             header("location: ./view.php");
         }else{
             echo "Update failed!";
